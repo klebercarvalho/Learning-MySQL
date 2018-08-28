@@ -39,21 +39,17 @@ $ create table noticias(
 ```
 
 create table
-```sh
+```sql
 $ create table noticias(id_noticia int not null primary key auto_increment, titulo varchar(100), noticia text, data_criacao timestamp default current_timestamp);
 ```
 
-create table
-```sh
-$ create table noticias(id_noticia int not null primary key auto_increment, titulo varchar(100), noticia text, data_criacao timestamp default current_times
-```
 
-create table
+insert
 ```sh
 $ insert into noticias(titulo, noticia)values('Titulo da Noticia', 'Conteudo da Noticia');
 ```
 
-create table
+select
 ```sh
 $ select * from noticias;
 ```

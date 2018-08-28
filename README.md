@@ -54,7 +54,17 @@ select
 $ select * from noticias;
 ```
 
-alter
+alter table add column
 ```sql
 $ alter table noticias add column resumo varchar(100);
+```
+
+alter table add column
+```sql
+$ alter table noticias add column autor varchar(100);
+```
+
+alter table add column
+```sql
+$ alter table noticias add column data_noticia date;
 ```

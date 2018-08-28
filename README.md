@@ -4,7 +4,7 @@ Learning MySQL
 
 
 Creating Database <database-name>
-```sh
+```sql
 $ mysql --user=root --password="" -e "CREATE DATABASE <database-name>"
 ```
 
@@ -14,22 +14,22 @@ $ mysql --user=root --password="" -e "CREATE DATABASE myblog"
 ```
 
 show databases
-```sh
+```sql
 $ show databases;
 ```
 
 use <database-name>
-```sh
+```sql
 $ use <database-name>;
 ```
   
 show tables
-```sh
+```sql
 $ show tables;
 ```
 
 show tables
-```sh
+```sql
 $ create table noticias(
     -> id_noticia int not null primary key auto_increment,
     -> titulo varchar(100),
@@ -45,11 +45,11 @@ $ create table noticias(id_noticia int not null primary key auto_increment, titu
 
 
 insert
-```sh
+```sql
 $ insert into noticias(titulo, noticia)values('Titulo da Noticia', 'Conteudo da Noticia');
 ```
 
 select
-```sh
+```sql
 $ select * from noticias;
 ```

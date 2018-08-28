@@ -53,3 +53,8 @@ select
 ```sql
 $ select * from noticias;
 ```
+
+alter
+```sql
+$ alter table noticias add column resumo varchar(100);
+```

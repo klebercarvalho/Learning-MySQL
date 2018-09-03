@@ -28,7 +28,7 @@ show tables
 $ show tables;
 ```
 
-show tables
+create table
 ```sql
 $ create table noticias(
     -> id_noticia int not null primary key auto_increment,
@@ -67,4 +67,14 @@ $ alter table noticias add column autor varchar(100);
 alter table add column
 ```sql
 $ alter table noticias add column data_noticia date;
+```
+
+show table columns
+```sql
+$ DESCRIBE [table name]
+```
+
+show table columns
+```sql
+$ SHOW COLUMNS FROM [table name]
 ```

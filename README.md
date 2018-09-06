@@ -76,5 +76,5 @@ $ DESCRIBE [table name]
 
 show table columns
 ```sql
-$ SHOW COLUMNS FROM [table name]
+$ show columns FROM [table name]
 ```
